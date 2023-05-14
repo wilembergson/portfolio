@@ -8,7 +8,7 @@ export default function Cover() {
                         Wilembergson Alfredo
                     </h1>
                     <h1 className="text-center text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-cover">
-                        Explore o meu portfólio!
+                        Desenvolvedor web
                     </h1>
                 </div>
                 <img className="object-contain hidden sm:block z-11 flex w-1/2" src="/cover1.png" alt="" />
