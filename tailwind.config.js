@@ -7,7 +7,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'cover': ['Poiret One', 'sans-serif']
+      'principal': ['Poiret One', 'sans-serif']
     },
     extend: {
       height: {
