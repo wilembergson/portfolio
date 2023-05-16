@@ -1,4 +1,6 @@
 export default function Cover() {
+
+
     return (
         <div className="relative w-full h-100">
             <img className="absolute z-11 w-full  h-full" src="/coverbg.jpg" alt="" />
@@ -10,6 +12,9 @@ export default function Cover() {
                     <h1 className="text-center text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-principal">
                         Desenvolvedor web
                     </h1>
+                    {/*<button className="text-center mt-20 text-2xl sm:text-2xl xl:text-3xl text-white p-5 cursor-pointer bg-purple-800 hover:bg-purple-500 duration-700 rounded-full font-principal">
+                        Baixe meu curriculo
+                    </button>*/}
                 </div>
                 <img className="object-contain hidden sm:block z-11 flex w-1/2" src="/cover1.png" alt="" />
             </div>
