@@ -10,7 +10,7 @@ export default function Projects() {
                 <h1 className='font-principal mt-16 text-3xl sm:text-5xl text-center mb-10 text-white justify-center'>
                     Projetos
                 </h1>
-                <div className="flex flex-wrap w-full justify-center">
+                <div className="flex flex-wrap w-full justify-center" data-aos="zoom-in">
                     <ProjectItem image='/clinicas-dev.png' title='Clínicas Dev' description='Sistema para marcação de consultas médicas'>
                         <Tag title="ReactJS" />
                         <Tag title="NodeJS" />
