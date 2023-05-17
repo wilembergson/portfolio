@@ -1,11 +1,12 @@
 'use client';
 
-import Cover from '@/components/cover'
+import { useEffect } from 'react'
+import 'aos/dist/aos.css'
+import Aos from 'aos'
+
 import Projects from '@/components/projects'
 import Skills from '@/components/skills'
-import { useEffect } from 'react'
-import Aos from 'aos'
-import 'aos/dist/aos.css'
+import Cover from '@/components/cover'
 
 export default function Home() {
   useEffect(() => {
