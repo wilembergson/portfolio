@@ -1,11 +1,11 @@
 import YouTube, { YouTubeProps } from "react-youtube";
 
-type Prop = {
+type Props = {
     videoId: string
     children: any
 }
 
-export default function Video({ videoId, children }: Prop) {
+export default function Video({ videoId, children }: Props) {
     const opts: YouTubeProps['opts'] = {
         width: '100%'
     }
@@ -14,9 +14,9 @@ export default function Video({ videoId, children }: Prop) {
             <div className="w-full flex-col justify-center items-center">
                 <YouTube opts={opts} videoId={videoId} />
             </div>
-            <h1 className="text-justify w-full sm:w-1/2 ml-0 mt-5 sm:ml-10 sm:mt-0 text-1xl md:text-xl xl:text-2xl">
+            <h3 className="text-white text-justify w-full sm:w-1/2 ml-0 mt-5 sm:ml-10 sm:mt-0 text-1xl md:text-xl xl:text-2xl">
                 {children}
-            </h1>
+            </h3>
         </section>
     )
 }
