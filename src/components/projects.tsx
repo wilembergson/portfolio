@@ -1,16 +1,15 @@
+import BackgroundImage from "./background-image";
 import ProjectItem from "./project-item";
+import MainTitle from "./main-title";
 import Tag from "./tag";
 
 export default function Projects() {
-
     return (
         <div className='flex relative w-full h-full flex-col items-center'>
-            <img className="absolute z-11 w-full h-full" src="/images/bg-projects.jpg" alt="" />
+            <BackgroundImage />
             <div className="z-10 w-full h-auto pb-12 bg-opacity-30  bg-black">
-                <h1 className='font-principal mt-16 text-3xl sm:text-5xl text-center mb-10 text-white justify-center'>
-                    Projetos
-                </h1>
-                <div className="flex flex-wrap w-full justify-center"  data-aos="fade-down">
+                <MainTitle textColor="text-white">Projetos</MainTitle>
+                <div className="flex flex-wrap w-full justify-center" data-aos="fade-down">
                     <ProjectItem url='/clinicas-dev' image='/clinicas-dev.png' title='Clínicas Dev' description='Sistema para marcação de consultas médicas'>
                         <Tag title="ReactJS" />
                         <Tag title="NodeJS" />

@@ -1,6 +1,15 @@
 import Link from "next/link";
+import { ReactNode } from "react";
 
-export default function ProjectItem({ url, image, title, description, children }: any) {
+type Props = {
+    url: string,
+    image: string,
+    title: string,
+    description: string,
+    children: ReactNode
+}
+
+export default function ProjectItem({ url, image, title, description, children }: Props) {
     return (
         <Link href={url} className="flex flex-col bg-white transition-all duration-700 transform hover:scale-105 w-96 p-5 m-5 items-center rounded-lg cursor-pointer shadow-black">
             <img className="z-11 w-12/12 h-1/2" src={`/images/${image}`} alt="" />

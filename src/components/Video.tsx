@@ -1,8 +1,9 @@
+import { ReactNode } from "react";
 import YouTube, { YouTubeProps } from "react-youtube";
 
 type Props = {
     videoId: string
-    children: any
+    children: ReactNode
 }
 
 export default function Video({ videoId, children }: Props) {

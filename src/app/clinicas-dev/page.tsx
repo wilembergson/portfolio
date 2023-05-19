@@ -1,17 +1,19 @@
 'use client'
 import Header from "@/components/Header";
+import TopicTitle from "@/components/TopicTitle";
 import Video from "@/components/Video";
+import BackgroundImage from "@/components/background-image";
+import MainTitle from "@/components/main-title";
+import Link from "next/link";
 
 export default function ClinicasDev() {
     return (
         <main className="flex font-principal min-h-screen h-full flex-col items-center">
             <Header />
             <section className="flex relative ">
-                <img className="absolute z-11 w-full h-full" src="/images/bg-projects.jpg" alt="" />
+                <BackgroundImage />
                 <div className="flex w-full flex-col items-center z-10 h-full bg-opacity-30 bg-black">
-                    <h1 className="text-white z-12 max-w-max text-3xl sm:text-5xl mt-14 mb-14" data-aos="fade-down">
-                        Clinicas Dev
-                    </h1>
+                    <MainTitle textColor="text-white">Clínicas Dev</MainTitle>
                     <Video videoId="-EgEtomnzrc">
                         Sistema de marcação de consultas médicas onde você deve criar um usuário
                         e fazer login para ter acesso às funcionalidades. Depois de fazer login,
@@ -19,13 +21,25 @@ export default function ClinicasDev() {
                         de acordo com a disponibilidade de cada especialidade médica por dia.
                         Acompanhe o vídeo de instruções.
                     </Video>
-                    <h2 className="text-purple-900 bg-white font-bold p-2 z-12 w-2/3 text-2xl sm:text-4xl mt-20 mb-5" data-aos="fade-left">
-                        Como execultar
-                    </h2>
-                    <h2 className="text-white  p-2 z-12 w-2/3 text-2xl sm:text-4xl" data-aos="fade-left">
-                        - Backend
-                    </h2>
-                    
+                    <TopicTitle>Como execultar</TopicTitle>
+                    <h3 className="text-white text-justify w-2/3 mb-10 mt-0 sm:mt-0 text-1xl md:text-xl xl:text-2xl" data-aos="fade-left">
+                        Primeiramente, você deve ter o <span className="font-bold">Node</span> e
+                        o <span className="font-bold">Docker</span> devidamente instalados em seu computador.
+                        Para isso, siga os links abaixo para fazer as instalações corretamente.
+                    </h3>
+                    <h3 className="text-white text-justify w-2/3 mb-10 mt-0 sm:mt-0 text-1xl md:text-xl xl:text-2xl" data-aos="fade-left">
+                        <span className="font-bold">Node: </span>
+                        <Link href='https://nodejs.dev/pt/learn/how-to-install-nodejs/' target="_blank">
+                            https://nodejs.dev/pt/learn/how-to-install-nodejs
+                        </Link>
+                        <br />
+                        <span className="font-bold">Docker: </span>
+                        <Link href='https://docs.docker.com/engine/install/' target="_blank">
+                            https://docs.docker.com/engine/install
+                        </Link>
+                    </h3>
+                    <TopicTitle>Backend</TopicTitle>
+
                 </div>
             </section>
         </main>
