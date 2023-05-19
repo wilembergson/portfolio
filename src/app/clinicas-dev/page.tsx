@@ -3,8 +3,9 @@ import Header from "@/components/Header";
 import TopicTitle from "@/components/TopicTitle";
 import Video from "@/components/Video";
 import BackgroundImage from "@/components/background-image";
+import Content from "@/components/content";
+import ContentLink from "@/components/content-link";
 import MainTitle from "@/components/main-title";
-import Link from "next/link";
 
 export default function ClinicasDev() {
     return (
@@ -22,24 +23,63 @@ export default function ClinicasDev() {
                         Acompanhe o vídeo de instruções.
                     </Video>
                     <TopicTitle>Como execultar</TopicTitle>
-                    <h3 className="text-white text-justify w-2/3 mb-10 mt-0 sm:mt-0 text-1xl md:text-xl xl:text-2xl" data-aos="fade-left">
+                    <Content>
                         Primeiramente, você deve ter o <span className="font-bold">Node</span> e
                         o <span className="font-bold">Docker</span> devidamente instalados em seu computador.
-                        Para isso, siga os links abaixo para fazer as instalações corretamente.
-                    </h3>
-                    <h3 className="text-white text-justify w-2/3 mb-10 mt-0 sm:mt-0 text-1xl md:text-xl xl:text-2xl" data-aos="fade-left">
+                        Para isso, acesse os links abaixo e faça as instalações corretamente, caso ainda não 
+                        tenha instalado.
+                    </Content>
+                    <Content>
                         <span className="font-bold">Node: </span>
-                        <Link href='https://nodejs.dev/pt/learn/how-to-install-nodejs/' target="_blank">
+                        <ContentLink href='https://nodejs.dev/pt/learn/how-to-install-nodejs/'>
                             https://nodejs.dev/pt/learn/how-to-install-nodejs
-                        </Link>
+                        </ContentLink>
                         <br />
                         <span className="font-bold">Docker: </span>
-                        <Link href='https://docs.docker.com/engine/install/' target="_blank">
+                        <ContentLink href='https://docs.docker.com/engine/install/'>
                             https://docs.docker.com/engine/install
-                        </Link>
-                    </h3>
+                        </ContentLink>
+                    </Content>
                     <TopicTitle>Backend</TopicTitle>
-
+                    <Content>
+                        <p>
+                            - Acesse o
+                            <ContentLink href="https://github.com/wilembergson/clinicas-dev-backend"> repositório </ContentLink>
+                            no Github e clone o projeto na sua máquina.
+                        </p>
+                        <p>
+                            - Abra o terminal na pasta do projeto e execulte o comando
+                            <span className="font-bold italic"> npm install</span> para baixar as dependências do projeto.
+                        </p>
+                        <p>
+                            - Ainda na pasta raís do projeto, crie um arquivo com o nome <span className="font-bold">.env </span>
+                            e preencha de acordo com o
+                            <ContentLink href="https://github.com/wilembergson/clinicas-dev-backend/blob/main/.env.exemple"> exemplo </ContentLink>
+                            do repositório.
+                        </p>
+                        <p>
+                            - Execute o comando <span className="font-bold italic"> npm run up</span> para subir o container docker
+                            com a aplicação NodeJS e o banco de dados Postgres.
+                        </p>
+                        <p>
+                            - Para realizar os testes, execute <span className="font-bold italic"> npm run test:cov</span>
+                        </p>
+                        <p>
+                            - Para acessar a aplicação localmente, você deve se atentar para qual porta você configurou no
+                            arquivo <span className="font-bold">.env</span>. Se por exemplo você configurou <span className="font-bold">PORT=5000 </span>
+                            então você de acessar o endereço <span className="font-bold">http://localhost:5000 </span>
+                            para ter acesso à aplicação.
+                        </p>
+                        <p>
+                            - Para encerrar a aplicação execulte o comando <span className="font-bold italic"> npm run down</span>
+                        </p>
+                    </Content>
+                    <Content>
+                        Para conferir os detalhes de funcionamento das rotas da aplicação, acesse
+                        o <ContentLink href="https://github.com/wilembergson/clinicas-dev-backend/blob/main/readme.md">
+                            readme
+                        </ContentLink> do projeto.
+                    </Content>
                 </div>
             </section>
         </main>

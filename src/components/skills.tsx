@@ -4,7 +4,7 @@ import MainTitle from "./main-title"
 
 export default function Skills() {
     return (
-        <div className='flex w-full p-16 flex-col items-center bg-purple-100'>
+        <div className='flex w-full pl-16 pr-16 pb-16 flex-col items-center bg-purple-100'>
             <MainTitle textColor="text-purple-900">
                 Tecnologias que domino
             </MainTitle>
