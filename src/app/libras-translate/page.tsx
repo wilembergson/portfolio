@@ -1,14 +1,11 @@
-import Header from "@/components/Header";
-import Link from "next/link";
+'use client'
+import MainTitle from "@/components/main-title";
+import ProjectPage from "@/components/project-page";
 
-export default function ClinicasDev() {
+export default function LibrasTranslate() {
     return (
-        <main className="flex min-h-screen h-full flex-col items-center font-principal">
-            <Header />
-            <h1 className="text-5xl">Libras Translate</h1>
-            <Link href='/'>
-                <button>Voltar</button>
-            </Link>
-        </main>
+        <ProjectPage>
+            <MainTitle textColor="text-white" textBlack={true}>Libras Translate</MainTitle>
+        </ProjectPage>
     )
 }

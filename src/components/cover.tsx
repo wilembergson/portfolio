@@ -1,7 +1,7 @@
 export default function Cover() {
     return (
         <div className="relative w-full h-100">
-            <img className="absolute z-11 w-full  h-full" src="/images/coverbg.jpg" alt=""/>
+            <img className="absolute z-11 w-full  h-full" src="/images/coverbg.jpg" alt="" />
             <div className="flex absolute z-10 max-w-full h-full p-10 bg-white bg-opacity-70 text-purple-800 flex-row space-between">
                 <div className="flex justify-center w-full sm:w-1/2 flex-col items-center">
                     <h1 className="text-center text-5xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl max-w-full flex-row space-between font-principal m-20" data-aos="fade-right">
@@ -14,7 +14,10 @@ export default function Cover() {
                         Baixe meu curriculo
                     </button>*/}
                 </div>
-                <img className="object-contain hidden sm:block z-11 flex w-1/2" src="/images/cover1.png" alt="" data-aos="fade-left"/>
+                <img className="object-contain hidden sm:block z-11 flex w-1/2" src="/images/cover1.png" alt="" data-aos="fade-left" />
+            </div>
+            <div className="flex absolute z-10 bottom-10 w-full justify-center">
+                scrow
             </div>
         </div>
     )
