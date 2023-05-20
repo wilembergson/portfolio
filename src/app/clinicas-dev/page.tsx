@@ -11,7 +11,7 @@ export default function ClinicasDev() {
     return (
         <main className="flex font-principal min-h-screen h-full flex-col items-center">
             <Header />
-            <section className="flex relative ">
+            <section className="flex relative justify-center">
                 <BackgroundImage />
                 <div className="flex w-full flex-col items-center z-10 h-full bg-opacity-30 bg-black">
                     <MainTitle textColor="text-white">Clínicas Dev</MainTitle>
@@ -26,7 +26,7 @@ export default function ClinicasDev() {
                     <Content>
                         Primeiramente, você deve ter o <span className="font-bold">Node</span> e
                         o <span className="font-bold">Docker</span> devidamente instalados em seu computador.
-                        Para isso, acesse os links abaixo e faça as instalações corretamente, caso ainda não 
+                        Para isso, acesse os links abaixo e faça as instalações corretamente, caso ainda não
                         tenha instalado.
                     </Content>
                     <Content>
@@ -79,6 +79,30 @@ export default function ClinicasDev() {
                         o <ContentLink href="https://github.com/wilembergson/clinicas-dev-backend/blob/main/readme.md">
                             readme
                         </ContentLink> do projeto.
+                    </Content>
+                    <TopicTitle>Frontend</TopicTitle>
+                    <Content>
+                        <p>
+                            - Acesse o
+                            <ContentLink href="https://github.com/wilembergson/clinicas-dev"> repositório </ContentLink>
+                            no Github e clone o projeto na sua máquina.
+                        </p>
+                        <p>
+                            - Abra o terminal na pasta do projeto e execulte o comando
+                            <span className="font-bold italic"> npm install</span> para baixar as dependências do projeto.
+                        </p>
+                        <p>
+                            - Na pasta raís do projeto, crie um arquivo com o nome <span className="font-bold">.env </span>
+                            e preencha de acordo com o
+                            <ContentLink href="https://github.com/wilembergson/clinicas-dev/blob/main/.env-exemple"> exemplo </ContentLink>
+                            do repositório. O dado a ser peenchido dele ser a url local de acesso do backend, no caso do exemplo acima,
+                             seria <span className="font-bold">http://localhost:5000 </span>
+                        </p>
+                        <p>
+                            - Para rodar o projeto, execute o comando <span className="font-bold italic">npm start </span>, e 
+                            acesse a url local <span className="font-bold">http://localhost:3000 </span> pelo browser para ver 
+                            o projeto funcionando.
+                        </p>
                     </Content>
                 </div>
             </section>
