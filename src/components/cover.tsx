@@ -1,5 +1,4 @@
 import { RxDoubleArrowDown } from 'react-icons/rx'
-import { ImDownload2 } from 'react-icons/im'
 
 export default function Cover() {
     return (
