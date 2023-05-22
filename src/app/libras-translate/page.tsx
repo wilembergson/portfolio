@@ -19,7 +19,8 @@ export default function LibrasTranslate() {
                     aqui
                 </ContentLink> para acessar a aplicação.
             </Video>
-            <Content title="Inspiração">
+            <TopicTitle>Inspiração</TopicTitle>
+            <Content>
                 Quando estava pagando a disciplina de Libras I na faculdade, tive
                 muita dificuldade em decorar as letras do alfabeto e os números, o
                 que sempre dificultou a minha participação em sala de aula. Criei
@@ -27,7 +28,8 @@ export default function LibrasTranslate() {
                 ver colegas de turma também usando e me dando feedback super positivos
                 a respeito.
             </Content>
-            <Content title="Como execultar">
+            <TopicTitle>Como execultar</TopicTitle>
+            <Content>
                 Primeiramente, você deve ter o <span className="font-bold">Node</span> devidamente
                 instalado em seu computador. Para isso, click <ContentLink href='https://nodejs.dev/pt/learn/how-to-install-nodejs/'>
                     aqui
