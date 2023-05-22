@@ -12,13 +12,13 @@ export default function ClinicasDev() {
     return (
         <ProjectPage>
             <IconsContainer>
-                <Icon width="10" smWidth="10" margin="2" imagePath="typescript.svg" />
-                <Icon width="14" smWidth="10" margin="2" imagePath="reactjs-icon.svg" />
-                <Icon width="10" smWidth="10" margin="2" imagePath="nodejs-icon.svg" />
-                <Icon width="16" smWidth="10" margin="2" imagePath="postgres-icon.svg" />
-                <Icon width="14" smWidth="10" margin="2" imagePath="prisma-icon.svg" />
-                <Icon width="14" smWidth="10" margin="2" imagePath="docker-icon.svg" />
-                <Icon width="10" smWidth="10" margin="2" imagePath="jest-icon.svg" />
+                <Icon width="10" imagePath="typescript.svg" />
+                <Icon width="14" imagePath="reactjs-icon.svg" />
+                <Icon width="10" imagePath="nodejs-icon.svg" />
+                <Icon width="16" imagePath="postgres-icon.svg" />
+                <Icon width="14" imagePath="prisma-icon.svg" />
+                <Icon width="14" imagePath="docker-icon.svg" />
+                <Icon width="10" imagePath="jest-icon.svg" />
             </IconsContainer>
             <MainTitle textColor="text-white" textBlack={true}>Clínicas Dev</MainTitle>
             <Video videoId="-EgEtomnzrc">

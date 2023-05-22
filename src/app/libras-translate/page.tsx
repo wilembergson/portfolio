@@ -12,9 +12,9 @@ export default function LibrasTranslate() {
     return (
         <ProjectPage url="https://libras-translate.vercel.app/">
             <IconsContainer>
-                <Icon width="10" smWidth="10" margin="2" imagePath="typescript.svg" />
-                <Icon width="14" smWidth="10" margin="2" imagePath="reactjs-icon.svg" />
-                <Icon width="12" smWidth="10" margin="2" imagePath="styled-components-icon.png" />
+                <Icon width="10" imagePath="typescript.svg" />
+                <Icon width="14" imagePath="reactjs-icon.svg" />
+                <Icon width="12" imagePath="styled-components-icon.png" />
             </IconsContainer>
             <MainTitle textColor="text-white" textBlack={true}>Libras Translate</MainTitle>
             <Video videoId="HGFZgnwrof4">
