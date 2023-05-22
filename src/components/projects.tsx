@@ -15,6 +15,7 @@ export default function Projects() {
                         <Tag title="NodeJS" />
                         <Tag title="Postgres" />
                         <Tag title="Prisma" />
+                        <Tag title="Jest" />
                         <Tag title="Docker" />
                     </ProjectItem>
                     <ProjectItem url='/libras-translate' image='/libras2.png' title='Libras translate' description='Tradutor da lingua brasileira de sinais'>

@@ -3,13 +3,14 @@ import Header from "./Header"
 import BackgroundImage from "./background-image"
 
 type Props = {
+    url?: string,
     children: ReactNode
 }
 
-export default function ProjectPage({ children }: Props) {
+export default function ProjectPage({ url, children }: Props) {
     return (
         <main className="flex relative w-full sm:w-full font-principal min-h-screen h-full flex-col items-center">
-            <Header />
+            <Header url={url} />
             <section className="flex relative justify-center">
                 <BackgroundImage />
                 <div className="flex w-full flex-col items-center z-10 h-full bg-opacity-30 bg-black">

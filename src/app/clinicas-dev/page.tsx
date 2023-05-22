@@ -1,14 +1,25 @@
 'use client'
+import Icon from "@/components/icon";
 import Video from "@/components/Video";
 import Content from "@/components/content";
 import MainTitle from "@/components/main-title";
 import TopicTitle from "@/components/TopicTitle";
 import ContentLink from "@/components/content-link";
 import ProjectPage from "@/components/project-page";
+import IconsContainer from "@/components/icons-container";
 
 export default function ClinicasDev() {
     return (
         <ProjectPage>
+            <IconsContainer>
+                <Icon width="10" imagePath="typescript.svg" />
+                <Icon width="14" imagePath="reactjs-icon.svg" />
+                <Icon width="12" imagePath="nodejs-icon.svg" />
+                <Icon width="16" imagePath="docker-icon.svg" />
+                <Icon width="14" imagePath="postgres-icon.svg" />
+                <Icon width="14" imagePath="prisma-icon.svg" />
+                <Icon width="12" imagePath="jest-icon.svg" />
+            </IconsContainer>
             <MainTitle textColor="text-white" textBlack={true}>Clínicas Dev</MainTitle>
             <Video videoId="-EgEtomnzrc">
                 Sistema de marcação de consultas médicas onde você deve criar um usuário

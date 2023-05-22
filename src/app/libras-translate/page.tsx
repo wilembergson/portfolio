@@ -3,12 +3,19 @@ import TopicTitle from "@/components/TopicTitle";
 import Video from "@/components/Video";
 import Content from "@/components/content";
 import ContentLink from "@/components/content-link";
+import Icon from "@/components/icon";
+import IconsContainer from "@/components/icons-container";
 import MainTitle from "@/components/main-title";
 import ProjectPage from "@/components/project-page";
 
 export default function LibrasTranslate() {
     return (
-        <ProjectPage>
+        <ProjectPage url="https://libras-translate.vercel.app/">
+            <IconsContainer>
+                <Icon width="10" imagePath="typescript.svg" />
+                <Icon width="14" imagePath="reactjs-icon.svg" />
+                <Icon width="12" imagePath="styled-components-icon.png" />
+            </IconsContainer>
             <MainTitle textColor="text-white" textBlack={true}>Libras Translate</MainTitle>
             <Video videoId="HGFZgnwrof4">
                 Trata-se de um tradutor da língua brasileira de sinais, onde a
