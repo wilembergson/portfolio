@@ -8,7 +8,7 @@ type Props = {
 
 export default function ProjectPage({ children }: Props) {
     return (
-        <main className="flex font-principal min-h-screen h-full flex-col items-center">
+        <main className="flex relative w-full sm:w-full font-principal min-h-screen h-full flex-col items-center">
             <Header />
             <section className="flex relative justify-center">
                 <BackgroundImage />

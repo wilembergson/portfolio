@@ -17,6 +17,9 @@
 }
 
 body {
+  display: flex;
+  width: auto;
+  margin: 0;
   font-family: 'Poiret One', 'cursive';
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(

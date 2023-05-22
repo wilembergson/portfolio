@@ -17,7 +17,8 @@ export default function ClinicasDev() {
                 de acordo com a disponibilidade de cada especialidade médica por dia.
                 Acompanhe o vídeo de instruções.
             </Video>
-            <Content title="Como execultar">
+            <TopicTitle>Como execultar</TopicTitle>
+            <Content>
                 Primeiramente, você deve ter o <span className="font-bold">Node</span> e
                 o <span className="font-bold">Docker</span> devidamente instalados em seu computador.
                 Para isso, acesse os links abaixo e faça as instalações corretamente, caso ainda não
@@ -34,7 +35,8 @@ export default function ClinicasDev() {
                     https://docs.docker.com/engine/install
                 </ContentLink>
             </Content>
-            <Content title="Backend">
+            <TopicTitle>Backend</TopicTitle>
+            <Content>
                 <ul className="list-disc space-y-5 pl-6">
                     <li>
                         Acesse o
@@ -75,7 +77,8 @@ export default function ClinicasDev() {
                     readme
                 </ContentLink> do projeto.
             </Content>
-            <Content title="Frontend">
+            <TopicTitle>Frontend</TopicTitle>
+            <Content>
                 <ul className="list-disc space-y-5 pl-6">
                     <li>
                         Acesse o

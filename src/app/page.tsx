@@ -13,7 +13,7 @@ export default function Home() {
   }, [])
 
   return (
-    <main className="flex min-h-screen h-full flex-col items-center">
+    <main className="flex min-h-screen w-full h-full flex-col items-center">
       <Cover />
       <Skills />
       <Projects />
