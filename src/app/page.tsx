@@ -6,6 +6,7 @@ import Aos from 'aos'
 import Projects from '@/components/projects'
 import Skills from '@/components/skills'
 import Cover from '@/components/cover'
+import LearningSection from '@/components/learning-section';
 
 export default function Home() {
   useEffect(() => {
@@ -17,6 +18,7 @@ export default function Home() {
       <Cover />
       <Skills />
       <Projects />
+      <LearningSection />
     </main>
   )
 }

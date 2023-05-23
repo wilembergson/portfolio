@@ -29,13 +29,13 @@ export default function ClinicasDev() {
                 Acompanhe o vídeo de instruções.
             </Video>
             <TopicTitle>Como execultar</TopicTitle>
-            <Content>
+            <Content color="text-white"> 
                 Primeiramente, você deve ter o <span className="font-bold">Node</span> e
                 o <span className="font-bold">Docker</span> devidamente instalados em seu computador.
                 Para isso, acesse os links abaixo e faça as instalações corretamente, caso ainda não
                 tenha instalado.
             </Content>
-            <Content>
+            <Content color="text-white">
                 <span className="font-bold">Node: </span>
                 <ContentLink href='https://nodejs.dev/pt/learn/how-to-install-nodejs/'>
                     https://nodejs.dev/pt/learn/how-to-install-nodejs
@@ -47,7 +47,7 @@ export default function ClinicasDev() {
                 </ContentLink>
             </Content>
             <TopicTitle>Backend</TopicTitle>
-            <Content>
+            <Content color="text-white">
                 <ul className="list-disc space-y-5 pl-6">
                     <li>
                         Acesse o
@@ -82,14 +82,14 @@ export default function ClinicasDev() {
                     </li>
                 </ul>
             </Content>
-            <Content>
+            <Content color="text-white">
                 Para conferir os detalhes de funcionamento das rotas da aplicação, acesse
                 o <ContentLink href="https://github.com/wilembergson/clinicas-dev-backend/blob/main/readme.md">
                     readme
                 </ContentLink> do projeto.
             </Content>
             <TopicTitle>Frontend</TopicTitle>
-            <Content>
+            <Content color="text-white">
                 <ul className="list-disc space-y-5 pl-6">
                     <li>
                         Acesse o
