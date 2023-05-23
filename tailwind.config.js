@@ -12,6 +12,9 @@ module.exports = {
     extend: {
       height: {
         '100': '100vh'
+      },
+      colors: {
+        'footer':'#1B0A2A'
       }
     },
   },

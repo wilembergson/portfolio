@@ -7,6 +7,7 @@ import Projects from '@/components/projects'
 import Skills from '@/components/skills'
 import Cover from '@/components/cover'
 import LearningSection from '@/components/learning-section';
+import Footer from '@/components/footer';
 
 export default function Home() {
   useEffect(() => {
@@ -19,6 +20,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <LearningSection />
+      <Footer/>
     </main>
   )
 }
