@@ -6,8 +6,8 @@ import Tag from "./tag";
 export default function Projects() {
     return (
         <div className='flex relative w-full h-full flex-col items-center'>
-            <BackgroundImage path="/images/bg-projects.jpg"/>
-            <div className="z-10 w-full h-auto pb-16 bg-opacity-30 bg-black">
+            <BackgroundImage path="/images/bg-tech.png"/>
+            <div className="z-10 w-full h-auto pb-16 bg-opacity-20 bg-white">
                 <MainTitle textColor="text-white">Projetos</MainTitle>
                 <div className="flex flex-wrap w-full justify-center" data-aos="fade-down">
                     <ProjectItem url='/clinicas-dev' image='/clinicas-dev.png' title='Clínicas Dev' description='Sistema para marcação de consultas médicas'>
