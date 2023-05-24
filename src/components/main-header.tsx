@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { ImDownload2 } from 'react-icons/im'
 
 type Props = {
@@ -11,9 +12,11 @@ export default function MainHeader({ url }: Props) {
                 <h1 className="flex flex-row items-center font-black text-center text-purple-900 font-principal text-1xl sm:text-2xl w-max">
                     Wilembergson Alfredo
                 </h1>
-                {/*<button className="flex flex-row items-center text-center text-1xl sm:text-2xl text-white p-2 pl-3 cursor-pointer bg-purple-800 hover:bg-purple-600 duration-700 rounded-full font-principal">
-                    <ImDownload2 className='mr-2' />curriculo
-    </button>*/}
+                <Link href='/curriculo.pdf' target='blank' download>
+                    <button className="flex flex-row items-center text-center text-1xl sm:text-2xl text-white p-3 cursor-pointer bg-purple-800 hover:bg-purple-600 duration-700 rounded-full font-principal">
+                        <ImDownload2 className='mr-2' />curriculo
+                    </button>
+                </Link>
             </div>
         </header>
     )

@@ -1,4 +1,6 @@
 import { RxDoubleArrowDown } from 'react-icons/rx'
+import { ImDownload2 } from 'react-icons/im'
+import Link from 'next/link';
 
 export default function Cover() {
     return (
@@ -12,9 +14,11 @@ export default function Cover() {
                     <h1 className="text-center text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-principal">
                         Desenvolvedor web
                     </h1>
-                    {/*<button className="flex flex-row items-center text-center mt-20 text-2xl sm:text-2xl xl:text-2xl text-white p-5 cursor-pointer bg-purple-800 hover:bg-purple-600 duration-700 rounded-full font-principal">
-                        <ImDownload2 className='mr-5' /> Baixar curriculo
-                    </button>*/}
+                    <Link href='/curriculo.pdf' target='blank' download>
+                        <button className="flex flex-row items-center text-center mt-20 text-1xl sm:text-2xl xl:text-2xl text-white p-4 sm:p-5 cursor-pointer bg-purple-800 hover:bg-purple-600 duration-700 rounded-full font-principal">
+                            <ImDownload2 className='mr-5' /> Baixar curriculo
+                        </button>
+                    </Link>
                 </div>
                 <img className="object-contain hidden sm:block z-11 flex w-1/2" src="/images/cover1.png" alt="" data-aos="fade-left" />
             </div>
