@@ -7,7 +7,7 @@ export default function LearningSection() {
     return (
         <section className="flex relative w-full h-full flex-col items-center">
             <BackgroundImage path="/images/bg-binary.png" />
-            <div className="flex flex-col z-10 w-full h-auto items-center pb-12 bg-opacity-60  bg-white">
+            <div className="flex flex-col z-10 w-full h-auto items-center pb-12 bg-opacity-60  bg-purple-200">
                 <MainTitle textColor="text-purple-900">O que estou estudando no momento</MainTitle>
                 <section className="flex justify-center items-center pl-0 sm:pl-20 mb-20 w-2/3 flex-col sm:flex-row">
                     <Content color="text-black">
