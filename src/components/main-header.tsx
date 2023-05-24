@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { ImDownload2 } from 'react-icons/im'
+import ButtonHeader from './button-header'
 
 export default function MainHeader() {
     return (
@@ -9,10 +10,9 @@ export default function MainHeader() {
                     Wilembergson Alfredo
                 </h1>
                 <Link href='/curriculo.pdf' target='blank' download>
-                    <button className="flex flex-row items-center justify-center text-center text-1xl sm:text-2xl text-white px-3 py-2
-                     cursor-pointer bg-purple-800 hover:bg-purple-600 duration-700 rounded-full font-principal">
+                    <ButtonHeader>
                         <ImDownload2 className='mr-2' />curriculo
-                    </button>
+                    </ButtonHeader>
                 </Link>
             </div>
         </header>

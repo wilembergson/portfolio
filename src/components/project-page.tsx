@@ -15,7 +15,7 @@ export default function ProjectPage({ url, children }: Props) {
             <section className="flex relative justify-center">
                 <BackgroundImage path="/images/bg-tech.png" />
                 <div className="flex w-full flex-col items-center z-10 h-full bg-opacity-10 bg-white">
-                    <div className="flex flex-col items-center z-10 pb-10 backdrop-blur-lg w-full sm:w-5/6 h-full bg-opacity-10 bg-white">
+                    <div className="flex flex-col items-center z-10 pb-10 w-full sm:w-5/6 h-full bg-white bg-opacity-10 backdrop-blur-lg ">
                         {children}
                     </div>
                 </div>
