@@ -11,7 +11,7 @@ export default function LearningSection() {
                 <section className="flex justify-center items-center pl-0 sm:pl-20 mb-20 w-2/3 flex-col sm:flex-row">
                     <Content color="text-black">
                         Atualmente, para aprimorar meus conhecimentos no frontend, estou estudado
-                        NextJS e TailwindCSS, seguinto padrões de mercado e desenvolvendo aplicações
+                        NextJS e TailwindCSS, seguindo padrões de mercado e desenvolvendo aplicações
                         modernas. Este próprio site, por exemplo, foi desenvolvido com estas tecnologias.
                     </Content>
                     <div className="flex flex-col items-center pb-16 w-2/3" data-aos="fade-right">
