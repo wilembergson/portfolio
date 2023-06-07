@@ -10,7 +10,7 @@ import IconsContainer from "@/components/icons-container";
 
 export default function ClinicasDev() {
     return (
-        <ProjectPage>
+        <ProjectPage url="https://clinicas-dev-frontend.vercel.app/">
             <IconsContainer>
                 <Icon width="10" imagePath="typescript.svg" />
                 <Icon width="14" imagePath="reactjs-icon.svg" />
