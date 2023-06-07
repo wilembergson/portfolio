@@ -1,6 +1,5 @@
 import BackgroundImage from "./background-image";
 import Content from "./content";
-import Icon from "./icon";
 import MainTitle from "./main-title";
 
 export default function LearningSection() {
