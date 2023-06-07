@@ -31,13 +31,23 @@ export default function LearningSection() {
                         projetos utilizando esta ferramanta.
                     </Content>
                 </section>
-
+                <section className="flex justify-center items-center pl-0 sm:pl-20 mb-20 w-2/3 flex-col sm:flex-row">
+                    <Content color="text-black">
+                        Também estou aprofundando meus conhecimentos na AWS, onde estou optando por fazer
+                        o deploy das minhas aplicações backend. O principal serviço que estou usando é o EC2
+                        (Elastic Compute Cloud) onde se pode instanciar máquinas virtuais e configurar o 
+                        projeto desejado com total liberdade.
+                    </Content>
+                    <div className="flex flex-col items-center pb-16 pt-8 w-2/3" data-aos="fade-right">
+                        <img className="w-56" src="/images/aws.svg" />
+                    </div>
+                </section>
                 <section className="flex justify-center items-center pl-0 sm:pl-20 w-full flex-col sm:flex-row">
                     <Content color="text-black">
-                        Também estou buscando desenvolver minhas aplicações backend utilizando a abordagem 
-                        Domain-Driven Design (DDD), que tem como objetivo principal o desenvolvimento 
-                        de software que coloca o domínio de negócio no centro do processo de design, visando 
-                        criar sistemas mais aderentes às necessidades do negócio e facilitar a evolução e 
+                        Também estou buscando desenvolver minhas aplicações backend utilizando a abordagem
+                        Domain-Driven Design (DDD), que tem como objetivo principal o desenvolvimento
+                        de software que coloca o domínio de negócio no centro do processo de design, visando
+                        criar sistemas mais aderentes às necessidades do negócio e facilitar a evolução e
                         manutenção do software ao longo do tempo.
                     </Content>
                 </section>
