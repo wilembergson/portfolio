@@ -1,23 +1,22 @@
 'use client'
 import TopicTitle from "@/components/TopicTitle";
 import Content from "@/components/content";
-import ContentLink from "@/components/content-link";
 import MainTitle from "@/components/main-title";
 import ProjectPage from "@/components/project-page";
 
 export default function Greenmarket() {
     return (
         <ProjectPage>
-            <MainTitle textColor="text-white" textBlack={true}>Greenmarket - em desenvolvimento</MainTitle>
-            <img className="z-11 w-2/3  h-auto" src="/images/greenmarket.png" alt="" />
+            <MainTitle textColor="text-white" textBlack={true}>Parking - em desenvolvimento</MainTitle>
+            <img className="z-11 w-2/3  h-auto" src="/images/parking.png" alt="" />
             <TopicTitle>Descrição</TopicTitle>
             <Content color="text-white">
-                Loja de produtos naturais onde é possível criar um usuário, fazer login, selecionar
-                produtos do catálogo e realizar a compra, sempre tendo o valor total exibido na tela
-                conforme os produtos selecionados. Você também poderá ver o seu histórico de compras.
+                Sistema para controle de fluxo de veículos em estacionamento. É possível obter quais vagas
+                estão ocupadas ou disponíveis, cadastrar novos clientes, registrar quais veículos entraram 
+                ou sairam, conferir quando o cliente irá pagar por hora, além de obter relatórios sobre faturamentos.
             </Content>
             <TopicTitle>Tecnologias utilizadas</TopicTitle>
-            
+
             <Content color="text-white">
                 <ul className="list-disc space-y-5 pl-6">
                     <li>
@@ -30,7 +29,7 @@ export default function Greenmarket() {
                         Nestjs
                     </li>
                     <li>
-                        MongoDB
+                        Postgres
                     </li>
                     <li>
                         Prisma

@@ -25,11 +25,11 @@ export default function Projects() {
                         <Tag title="ReactJS" />
                         <Tag title="Styled-Components" />
                     </ProjectItem>
-                    <ProjectItem url='/greenmarket' image='/greenmarket.png' title='Greenmarket' description='Loja de produtos naturais' inProgress='Em desenvolvimento'>
+                    <ProjectItem url='/parking' image='/parking-cover.png' title='Parking' description='Sistema para controle de estacionamento' inProgress='Em desenvolvimento'>
                         <Tag title="NextJS" />
                         <Tag title="Tailwind" />
                         <Tag title="NestJS" />
-                        <Tag title="MongoDB" />
+                        <Tag title="Postgres" />
                         <Tag title="Prisma" />
                         <Tag title="Docker" />
                     </ProjectItem>
