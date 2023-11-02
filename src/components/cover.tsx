@@ -8,14 +8,14 @@ export default function Cover() {
             <img className="absolute z-11 w-full  h-full" src="/images/coverbg.jpg" alt="" />
             <div className="flex absolute z-10 max-w-full h-full p-10 bg-white bg-opacity-70 text-purple-800 flex-row space-between" >
                 <div className="flex justify-center w-full sm:w-1/2 flex-col items-center" data-aos="fade-right">
-                    <h1 className="text-center scale-100 text-5xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl max-w-full flex-row space-between font-principal m-20">
+                    <h1 className="text-center scale-100 text-5xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl max-w-full flex-row space-between font-principal m-14">
                         Wilembergson Alfredo
                     </h1>
-                    <h1 className="text-center text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-principal">
+                    <h1 className="text-center text-xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-4xl font-principal">
                         Desenvolvedor web
                     </h1>
                     <Link href='/curriculo.pdf' target='blank' download>
-                        <button className="flex flex-row items-center text-center mt-20 text-1xl sm:text-2xl xl:text-2xl text-white p-4 sm:p-5 cursor-pointer bg-purple-800 hover:bg-purple-600 duration-700 rounded-full font-principal">
+                        <button className="flex flex-row items-center text-center mt-20 text-1xl sm:text-xl xl:text-xl text-white p-4 sm:p-4 cursor-pointer bg-purple-800 hover:bg-purple-600 duration-700 rounded-full font-principal">
                             <ImDownload2 className='mr-5' /> Baixar curriculo
                         </button>
                     </Link>

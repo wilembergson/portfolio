@@ -34,7 +34,7 @@ export default function Projects() {
                         <Tag title="Docker" />
                     </ProjectItem>
                 </div>
-                <div className="flex w-2/3 mt-10 justify-center">
+                <div className="flex w-2/3 mt-6 justify-center">
                     <Content color="text-white">
                         Atualmente, estou refatorando meus projetos disponíveis no Github utilizando principios 
                         SOLID, orientação a objejetos e aplicando testes automatizados, além de também está utilizando

@@ -13,19 +13,19 @@ type Props = {
 
 export default function ProjectItem({ url, image, title, description, inProgress, children }: Props) {
     return (
-        <Link href={url} className="flex relative flex-col bg-white transition-all duration-700 transform hover:scale-105 w-96 m-5 items-center rounded-lg cursor-pointer shadow-black">
+        <Link href={url} className="flex relative flex-col bg-white transition-all duration-700 transform hover:scale-105 w-80 m-5 items-center rounded-lg cursor-pointer shadow-black">
             {inProgress ? <div className="flex absolute flex-col items-center pt-20 w-full h-full rounded-lg bg-opacity-70 text-white bg-black">
-                <GiSandsOfTime size={58} />
-                <h3 className="font-principal text-3xl mt-5">
+                <GiSandsOfTime size={50} />
+                <h3 className="font-principal text-2xl mt-2">
                     {inProgress}
                 </h3>
             </div> : <></>}
             <section className="flex flex-col h-full p-5">
                 <img className="z-11 w-12/12 h-1/2" src={`/images/${image}`} alt="" />
-                <h2 className="font-principal font-black text-4xl mt-5 w-full text-purple-900">
+                <h2 className="font-principal font-black text-3xl mt-5 w-full text-purple-900">
                     {title}
                 </h2>
-                <h3 className="font-principal text-2xl w-full text-grey-900 mt-3 leading-5">
+                <h3 className="font-principal text-lg w-full text-grey-900 mt-3 leading-5">
                     {description}
                 </h3>
                 <div className="flex flex-wrap justify-start mt-3">

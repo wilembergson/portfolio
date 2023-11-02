@@ -10,10 +10,10 @@ export default function Skills() {
                 Tecnologias que domino
             </MainTitle>
             <div className="flex flex-wrap w-full sm:w-2/3 justify-center">
-                <img className= 'object-contain flex w-16 sm:w-20 m-4' src='/images/typescript.svg' alt="" data-aos="zoom-out" />
-                <img className= 'object-contain flex w-32 sm:w-64 m-2' src='/images/reactjs2.svg' alt="" data-aos="zoom-out" />
-                <img className= 'object-contain flex w-24 sm:w-40 m-5' src='/images/nodejs.svg' alt="" data-aos="zoom-out" />
-                <img className= 'object-contain flex w-24 sm:w-40 m-5' src='/images/postgres.svg' alt="" data-aos="zoom-out" />
+                <img className= 'object-contain flex w-16 sm:w-16 m-4' src='/images/typescript.svg' alt="" data-aos="zoom-out" />
+                <img className= 'object-contain flex w-32 sm:w-56 m-2' src='/images/reactjs2.svg' alt="" data-aos="zoom-out" />
+                <img className= 'object-contain flex w-24 sm:w-36 m-5' src='/images/nodejs.svg' alt="" data-aos="zoom-out" />
+                <img className= 'object-contain flex w-24 sm:w-36 m-5' src='/images/postgres.svg' alt="" data-aos="zoom-out" />
                 <img className= 'object-contain flex w-24 sm:w-40 m-5' src='/images/mongodb.svg' alt="" data-aos="zoom-out" />
                 <img className= 'object-contain flex w-24 sm:w-40 m-5' src='/images/prisma.svg' alt="" data-aos="zoom-out" />
                 <img className= 'object-contain flex w-24 sm:w-40 m-5' src='/images/git.svg' alt="" data-aos="zoom-out" />
