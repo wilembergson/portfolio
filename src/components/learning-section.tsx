@@ -21,24 +21,23 @@ export default function LearningSection() {
                 </section>
                 <section className="flex justify-center items-center pl-0 sm:pl-20 mb-20 w-2/3 flex-col sm:flex-row">
                     <div className="flex flex-col items-center pb-16 w-2/3" data-aos="fade-right">
-                        <img className="w-56" src="/images/nestjs.svg" />
+                        <img className="w-56" src="/images/spring-icon.svg" />
                     </div>
                     <Content color="text-black">
-                        Para o backend, estou estudando NestJS, que é um framework NodeJS onde são
+                        Para o backend, estou estudando Spring Boot, que é um framework Java onde são
                         fornecidos padrões e ferramentas que agilizam o processo de desenvolvimento de
-                        software, como usar o typescript por padrão, por exemplo. Estou refatorando alguns
-                        projetos utilizando esta ferramanta.
+                        software, como a forte tipagem e robustez da linguagem Java, por exemplo.
+                        Estou refatorando alguns projetos utilizando esta ferramanta.
                     </Content>
                 </section>
                 <section className="flex justify-center items-center pl-0 sm:pl-20 mb-20 w-2/3 flex-col sm:flex-row">
                     <Content color="text-black">
-                        Também estou aprofundando meus conhecimentos na AWS, onde estou optando por fazer
-                        o deploy das minhas aplicações backend. O principal serviço que estou usando é o EC2
-                        (Elastic Compute Cloud) onde se pode instanciar máquinas virtuais e configurar o 
-                        projeto desejado com total liberdade.
+                        Também estou aprofundando meus conhecimentos em SQL, aplicado tanto em banckend
+                        com Spring Boot tanto com aplicações desenvolvidas com Oracle APEX, um ambiente
+                        de desenvolvimento de software low code da web executado no banco de dados Oracle.
                     </Content>
                     <div className="flex flex-col items-center pb-16 pt-8 w-2/3" data-aos="fade-right">
-                        <img className="w-56" src="/images/aws.svg" />
+                        <img className="w-56" src="/images/sql.svg" />
                     </div>
                 </section>
                 <section className="flex justify-center items-center pl-0 sm:pl-20 w-full flex-col sm:flex-row">
