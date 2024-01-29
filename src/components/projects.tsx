@@ -25,7 +25,7 @@ export default function Projects() {
                         <Tag title="ReactJS" />
                         <Tag title="Styled-Components" />
                     </ProjectItem>
-                    <ProjectItem url='/parking' image='/parking-cover.png' title='Parking' description='Sistema para controle de estacionamento' inProgress='Em desenvolvimento'>
+                    <ProjectItem url='/parking' image='/parking-cover.png' title='Parking' description='Sistema para controle de estacionamento'>
                         <Tag title="NextJS" />
                         <Tag title="Tailwind" />
                         <Tag title="NestJS" />

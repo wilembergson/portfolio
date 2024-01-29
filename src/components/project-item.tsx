@@ -25,7 +25,7 @@ export default function ProjectItem({ url, image, title, description, inProgress
                 <h2 className="font-principal font-black text-3xl mt-5 w-full text-purple-900">
                     {title}
                 </h2>
-                <h3 className="font-principal text-lg w-full text-grey-900 mt-3 leading-5">
+                <h3 className="font-principal text-lg w-full text-gray-900 mt-3 leading-5">
                     {description}
                 </h3>
                 <div className="flex flex-wrap justify-start mt-3">
