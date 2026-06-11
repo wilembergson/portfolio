@@ -2,6 +2,9 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -18,7 +21,7 @@
     "eslint": "8.40.0",
     "eslint-config-next": "13.4.2",
     "file-saver": "^2.0.5",
-    "next": "^13.4.2",
+    "next": "^16.2.9",
     "postcss": "8.4.23",
     "prop-types": "^15.8.1",
     "react": "18.2.0",
@@ -27,7 +30,7 @@
     "react-youtube": "^10.1.0",
     "tailwindcss": "3.3.2",
     "typescript": "5.0.4",
-    "vitedge": "^0.19.1"
+    "vitedge": "^0.1.0"
   },
   "devDependencies": {
     "@types/aos": "^3.0.4",
